@@ -43,11 +43,8 @@
 
       <div class="col-lg-5 hero-visual">
         <div class="avatar-ring mb-4">
-          {% if profile.photo %}
-            <img src="{{ profile.photo.url }}" alt="{{ profile.full_name }}">
-          {% else %}
-            <div class="avatar-fallback">{{ profile.full_name|initials }}</div>
-          {% endif %}
+          {% load static %}
+<img src="{% static 'img/profile.jpeg' %}" alt="{{ profile.full_name }}">
         </div>
 
         <div class="code-card">
