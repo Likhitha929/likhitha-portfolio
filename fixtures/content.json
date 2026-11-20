@@ -1,0 +1,1023 @@
+[
+{
+  "model": "core.profile",
+  "pk": 2,
+  "fields": {
+    "created_at": "2026-11-20T13:57:32.859Z",
+    "updated_at": "2026-11-20T14:02:08.669Z",
+    "full_name": "Likhitha Goru",
+    "tagline": "Developer ~ Engineer",
+    "typed_roles": "Machine Learning systems,Deep Learning Models,NLP& LLM pipelines,Full-stack web apps",
+    "about": "I'm an M.Tech student in Information Technology at NIT Raipur, working at the intersection of Artificial Intelligence, machine learning research, and software engineering. My current thesis focuses on deepfake detection under adversarial attacks using Agentic AI, where I build a trust-aware multi-agent system combining texture, frequency, semantic, and robustness analysis to improve detection reliability against sophisticated attacks.\r\n\r\nI enjoy working on problems where research meets practical engineering. From building a 6M-parameter Transformer from scratch for narrative consistency verification to developing multimodal price prediction systems using deep learning and ensemble models, I focus on understanding how models work, evaluating them rigorously, and turning them into usable applications.\r\n\r\nI primarily work with Python, C++, PyTorch, TensorFlow, Django, and Transformers. My interests span deep learning, computer vision, NLP, RAG systems, adversarial machine learning, and full-stack development. I also have industry experience as a Data Science Intern at APSSDC, where I developed an NLP-based sentiment analysis model achieving 88% accuracy.\r\n\r\nBeyond academics, I qualified GATE 2025 and served as General Secretary of the SGC Lecture Series Club, coordinating technical events, workshops, and knowledge-sharing initiatives.",
+    "email": "likhithagoru929@gmail.com",
+    "phone": "7569373827",
+    "location": "Raipur, Chhattisgarh, India",
+    "github_username": "Likhitha929",
+    "show_github_stats": false,
+    "linkedin_url": "http://www.linkedin.com/in/likhitha-goru-894951246",
+    "photo": "profile/Profile.jpeg",
+    "resume": "resume/LIKKI_RESUME.pdf",
+    "available_for_work": true,
+    "is_active": true
+  }
+},
+{
+  "model": "core.skillcategory",
+  "pk": 1,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.675Z",
+    "updated_at": "2026-09-06T07:54:33.675Z",
+    "name": "Programming Languages",
+    "icon": "bi-code-slash",
+    "description": "Languages I work in daily.",
+    "order": 1
+  }
+},
+{
+  "model": "core.skillcategory",
+  "pk": 2,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.680Z",
+    "updated_at": "2026-09-06T07:54:33.680Z",
+    "name": "Machine Learning",
+    "icon": "bi-cpu",
+    "description": "Classical ML, end to end.",
+    "order": 2
+  }
+},
+{
+  "model": "core.skillcategory",
+  "pk": 3,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.686Z",
+    "updated_at": "2026-09-06T07:54:33.686Z",
+    "name": "Deep Learning",
+    "icon": "bi-diagram-3",
+    "description": "Neural architectures and optimisation.",
+    "order": 3
+  }
+},
+{
+  "model": "core.skillcategory",
+  "pk": 4,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.691Z",
+    "updated_at": "2026-09-06T07:54:33.691Z",
+    "name": "LLMs & NLP",
+    "icon": "bi-chat-square-text",
+    "description": "Language models and retrieval.",
+    "order": 4
+  }
+},
+{
+  "model": "core.skillcategory",
+  "pk": 5,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.699Z",
+    "updated_at": "2026-09-06T07:54:33.699Z",
+    "name": "Data Science & Analysis",
+    "icon": "bi-bar-chart-line",
+    "description": "Finding the signal.",
+    "order": 5
+  }
+},
+{
+  "model": "core.skillcategory",
+  "pk": 6,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.703Z",
+    "updated_at": "2026-09-06T07:54:33.703Z",
+    "name": "Web Development",
+    "icon": "bi-window-stack",
+    "description": "Python-backed full stack.",
+    "order": 6
+  }
+},
+{
+  "model": "core.skillcategory",
+  "pk": 7,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.709Z",
+    "updated_at": "2026-09-06T07:54:33.709Z",
+    "name": "Core CS & Tools",
+    "icon": "bi-hdd-stack",
+    "description": "The fundamentals.",
+    "order": 7
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 1,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.676Z",
+    "updated_at": "2026-09-06T07:54:33.676Z",
+    "category": 1,
+    "name": "Python",
+    "proficiency": 95,
+    "is_featured": true,
+    "order": 0
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 2,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.677Z",
+    "updated_at": "2026-09-06T07:54:33.677Z",
+    "category": 1,
+    "name": "C++",
+    "proficiency": 85,
+    "is_featured": true,
+    "order": 1
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 3,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.678Z",
+    "updated_at": "2026-09-06T07:54:33.678Z",
+    "category": 1,
+    "name": "C",
+    "proficiency": 80,
+    "is_featured": true,
+    "order": 2
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 4,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.679Z",
+    "updated_at": "2026-09-06T07:54:33.679Z",
+    "category": 1,
+    "name": "SQL",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 3
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 5,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.681Z",
+    "updated_at": "2026-09-06T07:54:33.681Z",
+    "category": 2,
+    "name": "Supervised Learning",
+    "proficiency": 90,
+    "is_featured": true,
+    "order": 0
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 6,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.681Z",
+    "updated_at": "2026-09-06T07:54:33.681Z",
+    "category": 2,
+    "name": "Unsupervised Learning",
+    "proficiency": 85,
+    "is_featured": true,
+    "order": 1
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 7,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.682Z",
+    "updated_at": "2026-09-06T07:54:33.682Z",
+    "category": 2,
+    "name": "Feature Engineering",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 2
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 8,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.683Z",
+    "updated_at": "2026-09-06T07:54:33.683Z",
+    "category": 2,
+    "name": "Model Evaluation",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 3
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 9,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.684Z",
+    "updated_at": "2026-09-06T07:54:33.684Z",
+    "category": 2,
+    "name": "Scikit-learn",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 4
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 10,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.685Z",
+    "updated_at": "2026-09-06T07:54:33.685Z",
+    "category": 2,
+    "name": "XGBoost",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 5
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 11,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.686Z",
+    "updated_at": "2026-09-06T07:54:33.686Z",
+    "category": 2,
+    "name": "LightGBM",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 6
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 12,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.687Z",
+    "updated_at": "2026-09-06T07:54:33.687Z",
+    "category": 3,
+    "name": "Neural Networks (ANN, CNN, RNN)",
+    "proficiency": 88,
+    "is_featured": true,
+    "order": 0
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 13,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.688Z",
+    "updated_at": "2026-09-06T07:54:33.688Z",
+    "category": 3,
+    "name": "LSTM / GRU",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 1
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 14,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.689Z",
+    "updated_at": "2026-09-06T07:54:33.689Z",
+    "category": 3,
+    "name": "Model Optimization",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 2
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 15,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.690Z",
+    "updated_at": "2026-09-06T07:54:33.690Z",
+    "category": 3,
+    "name": "TensorFlow",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 3
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 16,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.691Z",
+    "updated_at": "2026-09-06T07:54:33.691Z",
+    "category": 3,
+    "name": "PyTorch",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 4
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 17,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.692Z",
+    "updated_at": "2026-09-06T07:54:33.692Z",
+    "category": 4,
+    "name": "Transformers",
+    "proficiency": 90,
+    "is_featured": true,
+    "order": 0
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 18,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.693Z",
+    "updated_at": "2026-09-06T07:54:33.693Z",
+    "category": 4,
+    "name": "RAG",
+    "proficiency": 88,
+    "is_featured": true,
+    "order": 1
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 19,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.694Z",
+    "updated_at": "2026-09-06T07:54:33.694Z",
+    "category": 4,
+    "name": "Prompt Engineering",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 2
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 20,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.695Z",
+    "updated_at": "2026-09-06T07:54:33.695Z",
+    "category": 4,
+    "name": "Hugging Face",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 3
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 21,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.695Z",
+    "updated_at": "2026-09-06T07:54:33.695Z",
+    "category": 4,
+    "name": "Tokenization",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 4
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 22,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.696Z",
+    "updated_at": "2026-09-06T07:54:33.696Z",
+    "category": 4,
+    "name": "Embeddings",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 5
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 23,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.697Z",
+    "updated_at": "2026-09-06T07:54:33.697Z",
+    "category": 4,
+    "name": "N-gram Models",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 6
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 24,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.698Z",
+    "updated_at": "2026-09-06T07:54:33.698Z",
+    "category": 4,
+    "name": "HMM",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 7
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 25,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.699Z",
+    "updated_at": "2026-09-06T07:54:33.699Z",
+    "category": 5,
+    "name": "Exploratory Data Analysis",
+    "proficiency": 88,
+    "is_featured": true,
+    "order": 0
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 26,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.700Z",
+    "updated_at": "2026-09-06T07:54:33.700Z",
+    "category": 5,
+    "name": "Data Cleaning",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 1
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 27,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.701Z",
+    "updated_at": "2026-09-06T07:54:33.701Z",
+    "category": 5,
+    "name": "Data Visualization",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 2
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 28,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.702Z",
+    "updated_at": "2026-09-06T07:54:33.702Z",
+    "category": 5,
+    "name": "Pandas",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 3
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 29,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.703Z",
+    "updated_at": "2026-09-06T07:54:33.703Z",
+    "category": 5,
+    "name": "NumPy",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 4
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 30,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.704Z",
+    "updated_at": "2026-09-06T07:54:33.704Z",
+    "category": 6,
+    "name": "Django",
+    "proficiency": 90,
+    "is_featured": true,
+    "order": 0
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 31,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.705Z",
+    "updated_at": "2026-09-06T07:54:33.705Z",
+    "category": 6,
+    "name": "HTML / CSS",
+    "proficiency": 88,
+    "is_featured": true,
+    "order": 1
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 32,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.706Z",
+    "updated_at": "2026-09-06T07:54:33.706Z",
+    "category": 6,
+    "name": "Django REST Framework",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 2
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 33,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.707Z",
+    "updated_at": "2026-09-06T07:54:33.707Z",
+    "category": 6,
+    "name": "Flask",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 3
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 34,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.708Z",
+    "updated_at": "2026-09-06T07:54:33.708Z",
+    "category": 6,
+    "name": "Streamlit",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 4
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 35,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.709Z",
+    "updated_at": "2026-09-06T07:54:33.709Z",
+    "category": 6,
+    "name": "Google APIs / OAuth2",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 5
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 36,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.710Z",
+    "updated_at": "2026-09-06T07:54:33.710Z",
+    "category": 7,
+    "name": "Data Structures & Algorithms",
+    "proficiency": 90,
+    "is_featured": true,
+    "order": 0
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 37,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.711Z",
+    "updated_at": "2026-09-06T07:54:33.711Z",
+    "category": 7,
+    "name": "OOP",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 1
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 38,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.712Z",
+    "updated_at": "2026-09-06T07:54:33.712Z",
+    "category": 7,
+    "name": "DBMS",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 2
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 39,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.713Z",
+    "updated_at": "2026-09-06T07:54:33.713Z",
+    "category": 7,
+    "name": "Operating Systems",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 3
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 40,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.714Z",
+    "updated_at": "2026-09-06T07:54:33.714Z",
+    "category": 7,
+    "name": "Computer Networks",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 4
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 41,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.714Z",
+    "updated_at": "2026-09-06T07:54:33.714Z",
+    "category": 7,
+    "name": "Git / GitHub",
+    "proficiency": 80,
+    "is_featured": false,
+    "order": 5
+  }
+},
+{
+  "model": "core.education",
+  "pk": 1,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.716Z",
+    "updated_at": "2026-09-06T07:54:33.716Z",
+    "institution": "National Institute of Technology, Raipur",
+    "degree": "M.Tech",
+    "field_of_study": "Information Technology",
+    "location": "Raipur, Chhattisgarh",
+    "start_year": 2025,
+    "end_year": null,
+    "score": "Aggregate: 90.2%",
+    "order": 1
+  }
+},
+{
+  "model": "core.education",
+  "pk": 2,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.716Z",
+    "updated_at": "2026-09-06T07:54:33.716Z",
+    "institution": "Rajiv Gandhi University of Knowledge Technologies",
+    "degree": "B.Tech",
+    "field_of_study": "Computer Science and Engineering",
+    "location": "Srikakulam, AP",
+    "start_year": 2021,
+    "end_year": 2025,
+    "score": "Aggregate: 90%",
+    "order": 2
+  }
+},
+{
+  "model": "core.education",
+  "pk": 3,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.717Z",
+    "updated_at": "2026-09-06T07:54:33.717Z",
+    "institution": "Rajiv Gandhi University of Knowledge Technologies",
+    "degree": "Intermediate",
+    "field_of_study": "Maths, Physics and Chemistry",
+    "location": "Srikakulam, AP",
+    "start_year": 2019,
+    "end_year": 2021,
+    "score": "Aggregate: 97.8%",
+    "order": 3
+  }
+},
+{
+  "model": "core.education",
+  "pk": 4,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.718Z",
+    "updated_at": "2026-09-06T07:54:33.718Z",
+    "institution": "A.P Model School",
+    "degree": "SSC",
+    "field_of_study": "",
+    "location": "Andhra Pradesh",
+    "start_year": 2018,
+    "end_year": 2019,
+    "score": "Aggregate: 100%",
+    "order": 4
+  }
+},
+{
+  "model": "core.experience",
+  "pk": 1,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.719Z",
+    "updated_at": "2026-09-06T07:54:33.719Z",
+    "role": "Data Science Intern",
+    "organisation": "Andhra Pradesh State Skill Development Corporation (APSSDC)",
+    "location": "Andhra Pradesh, India",
+    "start_date": "2024-05-01",
+    "end_date": "2024-06-30",
+    "summary": "Built an end-to-end sentiment analysis pipeline over real customer feedback data.",
+    "tech_stack": "Python, Machine Learning, NLP, Scikit-learn, Pandas, NLTK",
+    "order": 1
+  }
+},
+{
+  "model": "core.experiencebullet",
+  "pk": 1,
+  "fields": {
+    "experience": 1,
+    "text": "Developed an NLP-based sentiment analysis model achieving 88% accuracy.",
+    "order": 0
+  }
+},
+{
+  "model": "core.experiencebullet",
+  "pk": 2,
+  "fields": {
+    "experience": 1,
+    "text": "Processed and analyzed 5,000+ records using data cleaning, preprocessing and feature engineering.",
+    "order": 1
+  }
+},
+{
+  "model": "core.experiencebullet",
+  "pk": 3,
+  "fields": {
+    "experience": 1,
+    "text": "Improved data quality by 30% through effective preprocessing and validation.",
+    "order": 2
+  }
+},
+{
+  "model": "core.experiencebullet",
+  "pk": 4,
+  "fields": {
+    "experience": 1,
+    "text": "Optimized the inference pipeline, reducing prediction time by 20%.",
+    "order": 3
+  }
+},
+{
+  "model": "core.project",
+  "pk": 1,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.722Z",
+    "updated_at": "2026-11-20T13:35:36.844Z",
+    "title": "Doc Generator App",
+    "slug": "doc-generator-app",
+    "subtitle": "Schema-driven document generation on the Google Workspace APIs",
+    "category": "web",
+    "short_description": "A full-stack platform that generates documents from reusable Google Docs templates, using dynamic JSON field schemas so new document types need no code changes.",
+    "description": "Most document generators hardcode one template per document type. This one treats the schema as data: a JSON field definition describes the placeholders, so adding a new document type is a configuration change rather than a deployment.\r\nGoogle OAuth2 handles authentication, the Docs API's batchUpdate performs placeholder replacement in a single call, and the Drive API manages access and export.",
+    "highlights": "Schema-driven design supporting unlimited document types\r\nGoogle OAuth2 authentication end to end\r\nDocs API batchUpdate for atomic placeholder replacement\r\nDrive API integration for document access and export",
+    "tech_stack": "Django, Django REST Framework, Google Docs API, Google Drive API, OAuth2, Python",
+    "image": "",
+    "github_url": "https://github.com/Likhitha929/doc-generator-app",
+    "live_url": "",
+    "badge": "Full Stack",
+    "is_featured": true,
+    "order": 4
+  }
+},
+{
+  "model": "core.project",
+  "pk": 2,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.723Z",
+    "updated_at": "2026-11-20T13:35:36.845Z",
+    "title": "Retrieval-Augmented Narrative Consistency Verification",
+    "slug": "retrieval-augmented-narrative-consistency-verification",
+    "subtitle": "A 10.7M-parameter Transformer trained from scratch",
+    "category": "nlp",
+    "short_description": "A BERT-style Transformer paired with a hybrid BM25 and semantic retrieval RAG pipeline, verifying whether narrative statements stay consistent with their source text.",
+    "description": "The encoder was designed and trained from scratch at 10.7M parameters rather than fine-tuned from a checkpoint, so every architectural choice could be measured independently.\r\nRetrieval combines lexical BM25 with dense semantic search — each finds evidence the other misses, and the combination moved accuracy more than any single modelling change.",
+    "highlights": "97.56% accuracy on the verification task\r\n0.97 Macro F1 and 0.99 ROC-AUC\r\nHybrid BM25 + dense retrieval for evidence selection\r\n10.7M-parameter encoder trained from scratch",
+    "tech_stack": "PyTorch, Transformers, RAG, BM25, NLP, Python",
+    "image": "",
+    "github_url": "https://github.com/Likhitha929/narrative-consistency",
+    "live_url": "",
+    "badge": "Research",
+    "is_featured": true,
+    "order": 3
+  }
+},
+{
+  "model": "core.project",
+  "pk": 3,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.724Z",
+    "updated_at": "2026-11-20T13:35:36.846Z",
+    "title": "AI-Powered Multimodal E-commerce Price Prediction System",
+    "slug": "ai-powered-multimodal-e-commerce-price-prediction-system",
+    "subtitle": "Product text and images feeding a stacked ensemble",
+    "category": "ml",
+    "short_description": "An end-to-end system predicting product prices from both descriptions and images, served through a Streamlit app for real-time predictions and automated reporting.",
+    "description": "Textual features cover keywords, quality indicators and numeric analysis of the listing copy; deep image features come from pre-trained MobileNetV2 and ResNet50 backbones.\r\nPredictions come from a super ensemble of XGBoost, LightGBM, Random Forest, Gradient Boosting and Ridge Regression, wrapped in a Streamlit interface with automated reporting.",
+    "highlights": "Multimodal features from product text and images\r\nMobileNetV2 and ResNet50 as frozen feature extractors\r\nFive-model stacked ensemble for the final prediction\r\nStreamlit app for real-time pricing and reports",
+    "tech_stack": "Python, TensorFlow, Scikit-learn, XGBoost, LightGBM, Streamlit, NLP",
+    "image": "",
+    "github_url": "https://github.com/Likhitha929/multimodal-price-prediction",
+    "live_url": "",
+    "badge": "End-to-end",
+    "is_featured": true,
+    "order": 2
+  }
+},
+{
+  "model": "core.project",
+  "pk": 4,
+  "fields": {
+    "created_at": "2026-11-20T13:35:09.122Z",
+    "updated_at": "2026-11-20T13:39:02.831Z",
+    "title": "Agentic Deepfake Detection under Adversarial Attacks",
+    "slug": "agentic-deepfake-detection-under-adversarial-attacks",
+    "subtitle": "A trust-aware multi-agent system that keeps detecting deepfakes when attackers add invisible noise to fool the detector",
+    "category": "ai",
+    "short_description": "Deepfake video detection that stays reliable under adversarial attacks. It uses three forensic agents, a trust-checking robustness agent and a Transformer coordinator.",
+    "description": "Deepfake detectors work well on normal videos, but invisible adversarial noise can fool them completely. This research builds an agentic system that resists such attacks. Three agents examine different evidence: texture (GenD-CLIP features and SRM noise), frequency (DCT, FFT and phase patterns) and motion (an R(2+1)D video network). A robustness agent cleans each video and re-checks it, to measure how far each agent can be trusted and to raise an attack alarm. A Transformer coordinator combines the agents by confidence and trust and decides Real, Fake or Uncertain. It never says Real while an attack is detected. An explainability agent shows heat-maps, frequency views, motion maps and a plain-language trust report. The system is evaluated on FaceForensics++ against black-box, white-box and fully adaptive attackers.",
+    "highlights": "Reproduced and stress-tested GenD (WACV 2026) under adversarial attacks\r\nThree forensic agents: texture, frequency and motion\r\nTrust-based robustness agent with an attack alarm\r\nTransformer coordinator with Real / Fake / Uncertain decisions\r\nAdversarial training with FGSM and PGD\r\nExplainability: heat-maps, frequency views and trust reports\r\nEvaluated against black-box, white-box and adaptive attacks",
+    "tech_stack": "Python,PyTorch , timm , torchvision , Hugging Face Transformers , CLIP ViT-L/14 (GenD) ·,EfficientNet-B0 , R(2+1)D-18 , Transformer encoder , RetinaFace, OpenCV , NumPy , pandas ,scikit-learn ,DCT / FFT signal processing",
+    "image": "",
+    "github_url": "",
+    "live_url": "",
+    "badge": "M.Tech Research",
+    "is_featured": true,
+    "order": 1
+  }
+},
+{
+  "model": "core.achievement",
+  "pk": 1,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.725Z",
+    "updated_at": "2026-09-06T07:54:33.725Z",
+    "kind": "award",
+    "title": "Qualified GATE 2025",
+    "issuer": "All India",
+    "period": "2025",
+    "description": "Qualified the Graduate Aptitude Test in Engineering 2025, demonstrating strong proficiency in core technical subjects.",
+    "url": "",
+    "icon": "bi-patch-check",
+    "order": 1
+  }
+},
+{
+  "model": "core.achievement",
+  "pk": 2,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.726Z",
+    "updated_at": "2026-09-06T07:54:33.726Z",
+    "kind": "award",
+    "title": "General Secretary, SGC Lecture Series Club",
+    "issuer": "RGUKT Srikakulam",
+    "period": "2022 – 2024",
+    "description": "Led event organization and academic discussions for the club.\nCoordinated guest lectures, workshops and knowledge-sharing sessions to widen learning opportunities on campus.",
+    "url": "",
+    "icon": "bi-people",
+    "order": 2
+  }
+},
+{
+  "model": "core.achievement",
+  "pk": 3,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.727Z",
+    "updated_at": "2026-09-06T07:54:33.727Z",
+    "kind": "award",
+    "title": "Event Organizer, College Tech Fest",
+    "issuer": "RGUKT Srikakulam",
+    "period": "2023 – 2024",
+    "description": "Managed logistics and scheduling for technical events.\nCollaborated with faculty and students on sessions and project showcases.",
+    "url": "",
+    "icon": "bi-calendar-event",
+    "order": 3
+  }
+},
+{
+  "model": "core.achievement",
+  "pk": 4,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.728Z",
+    "updated_at": "2026-09-06T07:54:33.728Z",
+    "kind": "cert",
+    "title": "Internship Completion Certificate",
+    "issuer": "S2 Tech",
+    "period": "2022 – 2023",
+    "description": "",
+    "url": "",
+    "icon": "bi-award",
+    "order": 1
+  }
+},
+{
+  "model": "core.codingprofile",
+  "pk": 1,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.729Z",
+    "updated_at": "2026-09-06T07:54:33.729Z",
+    "platform": "LeetCode",
+    "username": "Likhitha_Goru_lc",
+    "url": "https://leetcode.com/u/Likhitha_Goru_lc/",
+    "icon": "bi-code-square",
+    "stat_label": "",
+    "stat_value": "",
+    "order": 1
+  }
+},
+{
+  "model": "core.codingprofile",
+  "pk": 2,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.730Z",
+    "updated_at": "2026-09-06T07:54:33.730Z",
+    "platform": "GeeksforGeeks",
+    "username": "Likhitha_Goru_gfg",
+    "url": "https://www.geeksforgeeks.org/user/Likhitha_Goru_gfg/",
+    "icon": "bi-braces",
+    "stat_label": "",
+    "stat_value": "",
+    "order": 2
+  }
+},
+{
+  "model": "core.language",
+  "pk": 1,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.730Z",
+    "updated_at": "2026-09-06T07:54:33.730Z",
+    "name": "English",
+    "level": "Fluent",
+    "order": 1
+  }
+},
+{
+  "model": "core.language",
+  "pk": 2,
+  "fields": {
+    "created_at": "2026-09-06T07:54:33.731Z",
+    "updated_at": "2026-09-06T07:54:33.731Z",
+    "name": "Telugu",
+    "level": "Fluent",
+    "order": 2
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 1,
+  "fields": {
+    "name": "Machine Learning",
+    "slug": "machine-learning"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 2,
+  "fields": {
+    "name": "Web Development",
+    "slug": "web-development"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 3,
+  "fields": {
+    "name": "AI",
+    "slug": "ai"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Why schema-driven beats one-template-per-document",
+    "slug": "why-schema-driven-beats-one-template-per-document",
+    "category": 2,
+    "excerpt": "The first version of my document generator needed a code change for every new document type. The second one didn't.",
+    "body": "The obvious way to build a document generator is one template, one handler, one endpoint. It works beautifully until someone asks for a fourth document type and you realise you've written the same function three times.\n\nThe version I ended up with treats the schema as data. A JSON field definition describes what placeholders a template has and what each one expects. Adding a document type means adding a row, not writing and deploying a handler.\n\nThe Google Docs API rewards this design. Its batchUpdate endpoint takes a list of replacement operations and applies them in one call, so a schema with twenty placeholders costs exactly as much as one with two. Combined with OAuth2 for access and the Drive API for export, the whole pipeline stays under a few hundred lines.",
+    "cover_image": "",
+    "tags": "django, google-api, architecture, oauth2",
+    "reading_minutes": 1,
+    "status": "published",
+    "published_at": "2026-08-31T07:54:33.733Z",
+    "views": 0,
+    "created_at": "2026-09-06T07:54:33.734Z",
+    "updated_at": "2026-09-06T07:54:33.734Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "BM25 and embeddings find different things",
+    "slug": "bm25-and-embeddings-find-different-things",
+    "category": 1,
+    "excerpt": "I assumed dense retrieval would make keyword search redundant. Measuring it changed my mind.",
+    "body": "When I started the narrative consistency project I expected semantic search to dominate. Embeddings understand meaning; keyword matching is the thing embeddings were invented to replace.\n\nThat isn't what the retrieval logs showed. BM25 reliably caught exact names, numbers and rare terms that embeddings smoothed into their neighbours. Dense search caught paraphrases that shared no vocabulary with the query at all. Each method's failures were the other's successes.\n\nCombining them was worth more than any change I made to the model itself. The final system reached 97.56% accuracy with a 0.99 ROC-AUC, and most of the distance from the baseline came from what the retriever put in front of the encoder rather than the encoder's own capacity.",
+    "cover_image": "",
+    "tags": "RAG, retrieval, NLP, transformers",
+    "reading_minutes": 1,
+    "status": "published",
+    "published_at": "2026-08-16T07:54:33.733Z",
+    "views": 0,
+    "created_at": "2026-09-06T07:54:33.735Z",
+    "updated_at": "2026-09-06T07:54:33.735Z"
+  }
+}
+]
